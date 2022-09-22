@@ -1,0 +1,7 @@
+﻿  pch.cpp
+  UnitTest1.cpp
+     Creating library D:\VTCE\SoftwareTesting\DemoCpp1\Debug\UnitTest1.lib and object D:\VTCE\SoftwareTesting\DemoCpp1\Debug\UnitTest1.exp
+UnitTest1.obj : error LNK2019: unresolved external symbol "public: __thiscall MyClass::MyClass(int)" (??0MyClass@@QAE@H@Z) referenced in function "public: void __thiscall UnitTest1::UnitTest1::TestMethod1(void)" (?TestMethod1@UnitTest1@1@QAEXXZ)
+UnitTest1.obj : error LNK2019: unresolved external symbol "public: int __thiscall MyClass::getAge(void)" (?getAge@MyClass@@QAEHXZ) referenced in function "public: void __thiscall UnitTest1::UnitTest1::TestMethod1(void)" (?TestMethod1@UnitTest1@1@QAEXXZ)
+UnitTest1.obj : error LNK2019: unresolved external symbol "public: __thiscall MyClass::~MyClass(void)" (??1MyClass@@QAE@XZ) referenced in function "public: void __thiscall UnitTest1::UnitTest1::TestMethod1(void)" (?TestMethod1@UnitTest1@1@QAEXXZ)
+D:\VTCE\SoftwareTesting\DemoCpp1\Debug\UnitTest1.dll : fatal error LNK1120: 3 unresolved externals
